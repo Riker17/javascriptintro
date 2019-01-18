@@ -12,8 +12,6 @@ console.log('img', imgs[0]);
 const px = 'px';
 let move = 0;
 
-
-
 setInterval( () => {
   move += 20;
   img.style.right = move + px;
